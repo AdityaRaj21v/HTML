@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COG</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="" href="form.html">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <style>
+        .suggestTerms {
+            background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+
+        }
+
+        .suggestTerms:hover {
+            border-color: chartreuse
+        }
+
+        .d {
+            background-image: url(images/slide5.jpg);
+            background-repeat:no-repeat ;
+    background-size: cover;}
+        
+
+        .img_box img {
+            max-width: 100%;
+            position: relative;
+            ;
+
+        }
+
+        .slide_container .container {
+            padding: 0;
+            max-width: 1230px;
+            margin: 0 auto;
+        }
+
+        .card_slider {
+            padding: 0px 16px;
+
+        }
+
+        .war {
+            border: 2px solid rgb(55, 101, 149);
+            border-radius: 24px;
+            margin: 32px 4px -1px 3px;
+        
+            background-color: rgb(1, 18, 18);
+
+
+
+        }
+
+        p {
+            margin: 5px 0;
+            text-align: center;
+            font-size: 21px;
+        }
+
+        p:hover {
+            font-weight: bolder;
+        }
+
+        legend {
+            font-size: 36px;
+            color:   #a584c0;
+}
+        
+
+        .btn {
+            padding: 13px 17px 26px 18px;
+            color: antiquewhite;
+            background-color: #600fa2;
+            border: 2px solid #600fa2;
+            border-radius: 7px;
+            cursor: pointer;
+            background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+            height: 41px;
+        }
+
+        a:hover {
+            font-weight: 900;
+            text-decoration: underline;
+            color: aquamarine
+        }
+
+        .btn:hover {
+            color: rgb(255, 156, 215);
+            background-color: #3e0868;
+            font-weight: bolder;
+        }
+
+        img {
+            width: 100%;
+            transition: transform 0.1s;
+            border-radius: 20px;
+        }
+
+        img:hover {
+            transform: scale(1.08);
+        }
+
+        .my-1 {
+            color: antiquewhite;
+
+        }
+
+        .m {
+            position: absolute;
+            left: 63px;
+
+
+        }
+        
+        .blink {
+                animation: blinker 2.5s linear infinite;
+                color: antiquewhite;
+                font-family: sans-serif;
+                font-size: xx-large;
+                
+                
+            }
+            .p{
+                background-color: black;
+                border-radius: 20px;
+                border: 2px solid rgb(206, 209, 13);
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                  
+                    
+                }
+            }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src=images/slide7.png alt="" width="282px">
+            </div>
+
+
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li> <a href="#">CONTACT</a></li>
+                <li><a href="form.html">LOGIN</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+    <main class="d">
+        <div class="search">
+
+            <input type="text" placeholder="search for games" class="text alignleft clearField suggestTerms" required>
+            <button class="btn">search</button>
+        </div>
+        <div class="b">
+        <div class="x">
+        <div class="box">
+            <span style="--i:1"><img src="https://giffiles.alphacoders.com/210/210015.gif" alt=""></span>
+            <span style="--i:2"><img src="https://i.gifer.com/Z9LO.gif" alt=""></span>
+            <span style="--i:3"><img src="https://www.icegif.com/wp-content/uploads/2022/04/icegif-1054.gif"
+                    alt=""></span>
+            <span style="--i:4"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6mtcQkmZFGfWVGY6GMASu2UWiqKQpsEAGgg&usqp=CAU"
+                    alt=""></span>
+            <span style="--i:5"><img src="https://giffiles.alphacoders.com/248/24868.gif" alt=""></span>
+            <span style="--i:6"><img src="https://www.icegif.com/wp-content/uploads/2022/04/icegif-1082.gif"
+                    alt=""></span>
+            <span style="--i:7"> <img src="https://thumbs.gfycat.com/FlimsyTautIcelandgull-size_restricted.gif"
+                    alt=""></span>
+            <span style="--i:8"> <img src="https://j.gifs.com/DRKKOK@large.gif?download=true" alt=""></span>
+        </div>
+        
+        </div>
+        
+        </div>
+        <div class="p">
+        <marquee class="blink " scrollamount="17">Explore your favourite games!</marquee>
+        </div>
+
+        <section class="slider_container war">
+            <legend>War Games</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/ff.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Free Fire Max</p>
+                                <button class="btn m">Download</button>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/bgmi.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">PUBG Mobile</p>
+                                <button class="btn m">Download</button>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/cod.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Call of Duty</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/cow2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Call of War 2</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/sf3.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Shadow Fight 3</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/dt2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Dead Trigger 2</p>
+                                <div><button class="btn m">Download</button></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/wp.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">WarPath</p>
+                                <button class="btn m">Download</button>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/coc.png" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Clash of Clans</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Adventure</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/lib.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Lost in Blue</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/dczi.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Death City-Zombie</p>
+                                <button class="btn m">Download</button>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/pg.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Pokemon Go</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/twd.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">The Walking Dead:S 5</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/na.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Ninja Arashi</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/coi.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Castle of Illusion</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/cc.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Criminal Case</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hphm.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Harry Potter: H M</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Racing Games</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/a9l.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Asphalt 9:Legends</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/nfs.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Need For Speed</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/bbr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Beach Buggy Racing</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/race.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">R.A.C.E.</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/an.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Asphlat Nitro</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/a8.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Asphalt 8:Airborne</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/rr3.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Real Racing 3</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hcr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Hill Climbing Racing</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hcr2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Hill Climbing Racing 2</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Shooting Games</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/am3d.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Archery Masters 3D</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/sa2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Stickman Archery 2</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/lb.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Longbow</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/rotr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Rise of the Tomb Raider</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/ab.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Archery Blitz</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/cbgh.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Cablea's Big Game </p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/bia.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Brothers in Arms </p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/sh.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Smash Hit</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>P.C. Games I</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/msmr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Spider-Man Remastered</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/c.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Cyberpunk</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/dl.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Dying Light </p>
+                                <button class="btn m">Download</button>>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/f1.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">F1 2022</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/ta.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">The Ascent</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/me.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Metro Exodus</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/ffxv.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Final Fantasy XV</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/rdr2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Read Dead Redemption II</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>P.C. Games II</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/gta5.png" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Grand Theft Auto V</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/tw3.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">The Witcher 3:Wild Hunt</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/gow.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">God of War</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/v.png" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Valorant</p>
+                                <button class="btn m">Download</button>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hwu.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Hot Wheels Unleashed</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/acv.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Assassin Creed:Valhalla</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/s.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Starfield</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/fh5.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Forza Horizon 5</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>P.C. Games III</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hm3.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Hitman 3</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/control.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Control</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/m.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Minecraft</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hzd.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Horizon Zero Dawn</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/hi.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Halo Infinite</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/codmw.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">C O D:Modern Warfare 2</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/rev.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Resident Evil village</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/bmi.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Bright Memory : Infinite</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Board Games</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="./images/ccok.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Chess-Clash of Kings</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\8bp.png" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">8 Ball Pool</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\lt.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Ludo Talent</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\mc.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Mahjong Crush</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\cp.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Carrom Pool : Disc Game</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\mcbd.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Monopoly-Classic Board Game</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\zt.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Zoo Tile-Match Puzzle Game</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\wbpg.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Wooden Block Puzzle Game</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Card Games</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\cbreak.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Callbreak</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\gr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Gin Rummy</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\msg.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Microsoft Card Games</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\sscg.jpeg" alt="" width="200px" height="200px">>
+                                <p class="text-center my-1">SpiderCard Games</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\dfuc.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Duo & Friends Uno cards</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\aos.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Aces of Spades</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\ct.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">card Thief</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\sg.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Solitaire Guru</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slider_container war">
+            <legend>Casual</legend>
+            <div class="container">
+                <div class="swiper card_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\ss.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Subway Surfers</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\tr.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Temple Run</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\g.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">GardenEscapes</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\ab2.png" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Angry Birds 2</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\cocgw.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">City of Crime</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\hb2.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Head Ball 2</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\sss.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Soccer Super Star</p>
+                                <button class="btn m">Download</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_box">
+                                <img src="images\rc22.jpeg" alt="" width="200px" height="200px">
+                                <p class="text-center my-1">Real Cricket 22</p>
+                                <button class="btn m">Download</button>
+                                <pre>
+
+
+                                </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script type="text/javascript">
+            var swiper = new Swiper(".card_slider", {
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                    },
+                    480: {
+                        slidesPerView: 2,
+                    },
+                    600: {
+                        slidesPerView: 3,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                    },
+
+                    900: {
+                        slidesPerView: 5,
+                    },
+                    1200: {
+                        slidesPerView: 6,
+                    },
+                },
+            });
+
+        </script>
+    </main>
+    <footer class=" footer">
+        <div class="col-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">Shop</a>
+            <a href="#">Blog</a>
+
+
+        </div>
+        <div class="col-2">
+            <h3 style="font-weight: bolder;">&copy;clusterofgames.org</h3>
+            <form>
+                <input type="email" placeholder="Your Email Adress" required>
+                <br>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h3>CONTACT</h3>
+            <p>123,XYZ road,BSK 3<br>Bangalore,karnatka,India</p>
+        </div>
+        <br>
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-behance"></i>
+        </div>
+
+
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
